@@ -3,8 +3,8 @@ package reader
 import (
 	"fmt"
 
-	"github.com/xitongsys/parquet-go/source"
-	"github.com/xitongsys/parquet-go/schema"
+	"github.com/jwdeitch/parquet-go/source"
+	"github.com/jwdeitch/parquet-go/schema"
 )
 
 // NewParquetColumnReader creates a parquet column reader

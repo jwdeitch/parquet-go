@@ -20,7 +20,7 @@
 [[projects]]
   branch = "master"
   digest = "1:5a652617d8b57d72ac3582c45a2d0c2530c35962e4b200f8d27dd2979b98d1fc"
-  name = "github.com/xitongsys/parquet-go-source"
+  name = "github.com/jwdeitch/parquet-go-source"
   packages = ["local"]
   pruneopts = "UT"
   revision = "2b72cbee77d5b8902db83e2d9b2e9f35ae751844"
@@ -31,7 +31,7 @@
   input-imports = [
     "github.com/apache/thrift/lib/go/thrift",
     "github.com/golang/snappy",
-    "github.com/xitongsys/parquet-go-source/local",
+    "github.com/jwdeitch/parquet-go-source/local",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
